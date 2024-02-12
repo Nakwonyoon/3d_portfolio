@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
 
-const Ball = () => {
-  return (
-    <div>Ball</div>
-  )
-}
+import {
+  Decal,
+  Float,
+  OrbitControls,
+  Preload,
+  useTexture,
+} from "@react-three/drei";
 
-export default Ball
+import CanvasLoader from "../Loader";
+
+const Ball = (props) => {
+  const [decal] = useTexture();
+  return <div>Ball</div>;
+};
+
+export default Ball;
