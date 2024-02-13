@@ -19,7 +19,35 @@ const Contact = () => {
   const handelChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
-  const handelSubmit = (e) => {};
+
+  const handelSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs
+      .send(
+        "service_4f2uvpi",
+        "template_1tglpni",
+        {
+          from_name: form.name,
+          message: form.message,
+          from_email: form.email,
+          to_name: "Nakwon",
+          to_email: "yoonnw1000@gmail.com",
+        },
+        "8fnmzlqAGE_QBmr7D"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Message sent successfully");
+          setForm({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          console.log(error);
+          alert("Failed to send message");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">

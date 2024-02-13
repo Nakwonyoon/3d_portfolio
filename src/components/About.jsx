@@ -44,12 +44,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a software engineer with a passion for creating and building things.
-        I have a strong background in web development, and I'm always looking
-        for new opportunities to learn and grow. I'm a quick learner and a team
-        player, and I'm always looking for ways to improve my skills and
-        knowledge. I'm also a big fan of open source software, and I'm always
-        looking for ways to contribute to the community.
+        Driven by a passion for technology and a solid foundation in economics
+        and business administration from the University of Texas at Austin, I
+        have carved a niche in IT and web development. My journey spans roles in
+        system administration and IT solutions, where I've excelled in ERP
+        integrations and e-commerce optimizations. Leveraging my expertise in
+        languages like JavaScript, Python, and frameworks such as React and
+        Node.js, I am committed to building web solutions that seamlessly blend
+        functionality with user-centric design. As I expand my portfolio with
+        front-end and back-end projects, I'm eager to explore new challenges and
+        opportunities in web development.
       </motion.p>
 
       <div className="mt-20 sm:flex flex-wrap gap-10 justify-center">
