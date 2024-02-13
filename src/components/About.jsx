@@ -36,8 +36,8 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}> Introduction </p>
-        <h2 className={styles.sectionHeadText}> Overview</h2>
+        <p className={`${styles.sectionSubText}`}> Introduction </p>
+        <h2 className={`${styles.sectionHeadText}`}> Overview</h2>
       </motion.div>
 
       <motion.p
@@ -49,12 +49,7 @@ const About = () => {
         for new opportunities to learn and grow. I'm a quick learner and a team
         player, and I'm always looking for ways to improve my skills and
         knowledge. I'm also a big fan of open source software, and I'm always
-        looking for ways to contribute to the community. I'm currently working
-        as a software engineer at a startup, and I'm always looking for new
-        opportunities to learn and grow. I'm also a big fan of open source
-        software, and I'm always looking for ways to contribute to the
-        community. I'm currently working as a software engineer at a startup,
-        and I'm always looking for new opportunities to learn and grow.
+        looking for ways to contribute to the community.
       </motion.p>
 
       <div className="mt-20 sm:flex flex-wrap gap-10 justify-center">
