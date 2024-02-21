@@ -20,6 +20,7 @@ import {
   tesla,
   shopify,
   carrent,
+  dalle,
   jobit,
   tripguide,
   threejs,
@@ -198,25 +199,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Artify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform which integrates OpenAI’s DALL·E 3 image generation model with a state-of-the-art stack. The end result is an all-in-one solution for the generation and management of digital imagery in modern web applications.This manifests the power of AI in augmenting the functionality, creativity, and beauty that’s made possible as developers solve new and interesting problems",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+        name: "express",
+        color: "yellow-text-gradient",
+      },
+      {
         name: "mongodb",
         color: "green-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dalle,
+    source_code_link: "https://github.com/Nakwonyoon/dalle_generator",
   },
   {
     name: "Job IT",

@@ -44,19 +44,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Driven by a passion for technology and a solid foundation in economics
-        and business administration from the University of Texas at Austin, I
-        have carved a niche in IT and web development. My journey spans roles in
-        system administration and IT solutions, where I've excelled in ERP
-        integrations and e-commerce optimizations. Leveraging my expertise in
-        languages like JavaScript, Python, and frameworks such as React and
-        Node.js, I am committed to building web solutions that seamlessly blend
-        functionality with user-centric design. As I expand my portfolio with
-        front-end and back-end projects, I'm eager to explore new challenges and
-        opportunities in web development.
+        Passionate about technology with a solid background from the University
+        of Texas at Austin in economics and business administration, I
+        specialize in web development with a focus on e-commerce optimizations
+        and superior user experiences. Proficient in JavaScript, Python, Java,
+        and frameworks like React, Node.js, Spring, and Spring Boot, I enhance
+        web applications by integrating AI APIs, pushing the boundaries of
+        smart, user-centric solutions. Eager to tackle new challenges, I'm
+        dedicated to the innovative fusion of design and technology in my
+        ongoing web development journey.
       </motion.p>
 
-      <div className="mt-20 sm:flex flex-wrap gap-10 justify-center">
+      <div className="mt-20 sm:flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
