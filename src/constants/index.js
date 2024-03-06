@@ -4,24 +4,13 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   cosmaxnbt,
   nextkernel,
@@ -156,7 +145,7 @@ const testimonials = [
 ]
 const projects = [
   {
-    name: "Dalle Imgae Generator",
+    name: "Artify",
     description:
       "A powerful and innovative application that leverages the capabilities of OpenAI to generate images based on user inputs, closely emulating the functionality of renowned AI image generation tools like MidJourney and DALL·E. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and styled with TailwindCSS, this app offers a sleek user interface and robust backend to process and render AI-generated images",
     tags: [
