@@ -25,12 +25,19 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cosmaxnbt from "./company/COSMAXNBT.png";
+import nextkernel from "./company/NEXTKERNEL.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import dalle from "./dalle.png"
+import travel from "./travel_app.png"
 export {
+  travel,
+  dalle,
+  cosmaxnbt,
+  nextkernel,
   logo,
   backend,
   creator,

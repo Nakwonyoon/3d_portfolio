@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  cosmaxnbt,
+  nextkernel,
+  dalle,
+  travel,
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +50,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Front-end Developer",
     icon: backend,
   },
   {
@@ -73,16 +77,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -104,103 +100,65 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "IT Specialist",
+    company_name: "Cosmax NBT",
+    icon: cosmaxnbt,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2021 - September 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed, tracked, and reported financial budgets for IT assets, including weekly and monthly expense reports based on business objectives and changing operations, ensuring that expenses were aligned with the company's financial goals.",
+      "Ensured network stability across global offices by collaborating with IT teams in Korea, leveraging Linux for server maintenance to minimize downtime.",
+      "Simulated and normalized complex scenarios to understand and implement while setting target costs for the company, resulting in optimized financial planning and cost savings.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Web Developer_Intern",
+    company_name: "Y.H Texpert Corporation",
+    icon: nextkernel,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "September 2021 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using javascript and other related technologies.",
+
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality e-commerce website.",
+
       "Implementing responsive design and ensuring cross-browser compatibility.",
+
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "ERP Modules & Ecommerce Supervisor  ",
+    company_name: "Y.H Texpert Corporation",
+    icon: nextkernel,
+    iconBg: "#383E56",
+    date: "March 2022 - November 2023",
+    points: [
+      "Liaise extensively with various departments to understand their requirements and incorporate them into the Odoo ERP system for enhanced user convenience",
+
+      "Collaborate with external vendors to develop ERP modules, successfully implementing major projects that significantly enhanced system functionality.",
+
+      "Implementing responsive design and ensuring user experience",
+
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
-
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
+  }
+
+]
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dalle Imgae Generator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A powerful and innovative application that leverages the capabilities of OpenAI to generate images based on user inputs, closely emulating the functionality of renowned AI image generation tools like MidJourney and DALL·E. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and styled with TailwindCSS, this app offers a sleek user interface and robust backend to process and render AI-generated images",
     tags: [
       {
         name: "react",
@@ -214,51 +172,34 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "OpenAI API",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dalle,
+    source_code_link: "https://github.com/Nakwonyoon/dalle_generator",
   },
   {
-    name: "Job IT",
+    name: "Travel Responsive UI/UX Design",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Modern web design in the travel sector. While this version of the website doesn't include functional elements like booking or search features, it provides a comprehensive look at how a travel website could adjust its layout and content to fit various screen sizes without compromising on user experience or design quality.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: travel,
+    source_code_link: "https://github.com/Nakwonyoon/travel_app",
   },
 ];
 
