@@ -44,15 +44,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Passionate about technology with a solid background from the University
-        of Texas at Austin in economics and business administration, I
-        specialize in web development with a focus on e-commerce optimizations
-        and superior user experiences. Proficient in JavaScript, Python, Java,
-        and frameworks like React, Node.js, Spring, and Spring Boot, I enhance
-        web applications by integrating AI APIs, pushing the boundaries of
-        smart, user-centric solutions. Eager to tackle new challenges, I'm
-        dedicated to the innovative fusion of design and technology in my
-        ongoing web development journey.
+        With a strong foundation in economics and business administration from
+        the University of Texas at Austin and a deep passion for technology, my
+        focus is on web development with a specialization in optimizing
+        e-commerce operations and crafting exceptional user experiences.
+        Proficient in JavaScript and J`ava, and well-versed in frameworks like
+        React and Node.js, I am committed to enhancing web applications by
+        integrating AI APIs. This dedication enables me to push the boundaries
+        of smart, user-centric solutions. Motivated by the thrill of facing new
+        challenges, I am on a continuous quest to merge innovative design with
+        the latest technology in my web development endeavors.
       </motion.p>
 
       <div className="mt-20 sm:flex flex-wrap gap-10">
